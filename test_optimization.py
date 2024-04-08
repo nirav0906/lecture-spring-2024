@@ -1,4 +1,4 @@
-from energy_optimization import optimize_energy_allocation
+from optimization import optimize_energy_allocation
 
 time = list(range(24))
 Pwind = [130, 150, 140, 160, 100, 120, 150, 180, 170, 160, 120, 130, 150, 176, 185, 120, 130, 140, 170, 190, 120, 170, 130, 150]
