@@ -9,3 +9,5 @@ def test_energy_allocation():
     optimal_result = optimize_energy_allocation(Pwind, Ppv, Load)
     for hour, allocation in optimal_result.items():
         print(f"Hour {hour}: Wind = {allocation['Wind']:} Wh, PV = {allocation['PV']:} Wh, Fuel Cell = {allocation['FuelCell']:} Wh")
+        assert isinstance(optimal_result, (int, float))
+        assert optimal_result > 0
