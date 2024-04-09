@@ -36,3 +36,4 @@ def optimize_energy_allocation(Pwind, Ppv, Load):
         }
 
     return optimal_allocation
+
